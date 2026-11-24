@@ -42,83 +42,19 @@ Data Quality: Clean dataset with 0 missing (null) values
 
 Train / Test Split: 80% Training (3,360 samples) / 20% Testing (840 samples) with random_state=42
 
-Feature
-
-Data Type
-
-Description
-
-house_id
-
-int64
-
-Unique property listing identifier
-
-area_sqft
-
-int64
-
-Total living floor area in square feet
-
-bedrooms
-
-int64
-
-Number of bedrooms
-
-bathrooms
-
-int64
-
-Number of bathrooms
-
-location_score
-
-float64
-
-Neighborhood/location desirability rating
-
-age_years
-
-int64
-
-Age of the property in years
-
-distance_city_km
-
-float64
-
-Distance from city center in kilometers
-
-lot_size_sqft
-
-int64
-
-Total land/lot area in square feet
-
-has_garage
-
-int64
-
-Binary indicator (1 = Yes, 0 = No)
-
-has_pool
-
-int64
-
-Binary indicator (1 = Yes, 0 = No)
-
-renovation_years_ago
-
-int64
-
-Years since last renovation
-
-house_price_inr
-
-int64
-
-Target Variable: Property price in Indian Rupees (INR)
+Feature                Data Type    Description
+house_id               int64        Unique property listing identifier
+area_sqft              int64        Total living floor area in square feet
+bedrooms               int64        Number of bedrooms
+bathrooms              int64        Number of bathrooms
+location_score         float64      Neighborhood/location desirability rating
+age_years              int64        Age of the property in years
+distance_city_km       float64      Distance from city center in kilometers
+lot_size_sqft          int64        Total land/lot area in square feet
+has_garage             int64        Binary indicator (1 = Yes, 0 = No)
+has_pool               int64        Binary indicator (1 = Yes, 0 = No)
+renovation_years_ago   int64        Years since last renovation
+house_price_inr        int64        Target Variable: Property price in Indian Rupees (INR)
 
 🔄 Project Workflow
 
